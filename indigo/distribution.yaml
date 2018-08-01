@@ -805,6 +805,33 @@ repositories:
       url: https://github.com/auboliuxin/aubo_robot.git
       version: indigo-devel
     status: developed
+  aubo_robotics:
+    doc:
+      type: git
+      url: https://github.com/lg609/aubo_robot.git
+      version: indigo-devel
+    release:
+      packages:
+      - aubo_robot
+      - aubo_planner
+      - aubo_msgs
+      - aubo_panel
+      - aubo_i7_moveit_config
+      - aubo_i5_moveit_config
+      - aubo_i5l_moveit_config
+      - aubo_i3_moveit_config
+      - aubo_driver
+      - aubo_description
+      - aubo_controller
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/lg609/aubo_robot-release.git
+      version: 1.3.3-0
+    source:
+      type: git
+      url: https://github.com/lg609/aubo_robot.git
+      version: indigo-devel
+    status: developed
   audio_common:
     doc:
       type: git
